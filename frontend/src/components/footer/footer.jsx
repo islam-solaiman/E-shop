@@ -29,9 +29,9 @@ const Footer = () => {
           variant="text"
           color="primary"
         >
-          Ali Hassan
+          Islam Solaima & Abdelrahman Mohamed
         </Button>
-        ©2023
+        ©2024
       </Typography>
     </Box>
   );
