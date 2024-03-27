@@ -29,7 +29,7 @@ const Footer = () => {
           variant="text"
           color="primary"
         >
-          Islam Solaima & Abdelrahman Mohamed
+          Islam Solaiman & Abdelrahman Abbas
         </Button>
         ©2024
       </Typography>

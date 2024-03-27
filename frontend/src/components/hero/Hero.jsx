@@ -10,6 +10,7 @@ import {
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -25,15 +26,14 @@ const mySlider = [
 const Hero = () => {
   const theme = useTheme();
   return (
-    <Container>
-      <Box
-        sx={{ pt: 2, mt: 2.5, display: "flex", alignItems: "center", gap: 2 }}
-      >
+    <Container  >
+      <Box sx={{pt: 2, mt: 2.5, display: "flex", alignItems: "center", gap: 2 }}>
         <Swiper
           loop={true}
           pagination={{
             dynamicBullets: true,
           }}
+          modules={[Pagination]}
           className="mySwiper"
         >
           {mySlider.map((item) => {

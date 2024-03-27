@@ -13,11 +13,9 @@ import WorkspacePremiumOutlinedIcon from "@mui/icons-material/WorkspacePremiumOu
 import AccessAlarmOutlinedIcon from "@mui/icons-material/AccessAlarmOutlined";
 
 const IconSection = () => {
-  const theme = useTheme();
+  const theme = useTheme()
   return (
-    <Container
-      sx={{ mt: 3, bgcolor: theme.palette.mode === "dark" ? "#000" : "#fff" }}
-    >
+    <Container sx={{mt: 3, bgcolor: theme.palette.mode === "dark"? "#000" : "#fff" }}>
       <Stack
         divider={
           useMediaQuery("(min-width:600px)") ? (
@@ -60,6 +58,7 @@ const MyBox = ({ icon, title, subTitle }) => {
   const theme = useTheme();
   return (
     <Box
+     
       sx={{
         width: 250,
         display: "flex",
