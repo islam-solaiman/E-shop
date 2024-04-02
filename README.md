@@ -6,7 +6,7 @@ Eshop : is an ecommerce platform inspired by amazon website ,Provide user-friend
 
 ## Demo Website
 
-- 👉 Render : [https://mern-eshop-0d433d7dc76c.herokuapp.com/](https://mern-eshop-0d433d7dc76c.herokuapp.com/)
+- 👉 [https://mern-eshop-0d433d7dc76c.herokuapp.com/](https://mern-eshop-0d433d7dc76c.herokuapp.com/)
 
 ## Architecture Overview
 
