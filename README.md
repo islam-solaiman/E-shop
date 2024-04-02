@@ -2,7 +2,7 @@
 
 ![Eshop](/frontend/public/images/eshop.png)
 
-Welcome to my React and Node tutorial to build a fully-functional e-commerce website exactly like amazon. Open your code editor and follow me for the next hours to build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
+Eshop : is an ecommerce platform inspired by amazon website ,Provide user-friendly design , detailed products information , Advanced search Functionality, order checkout and Secure Payment Processing,
 
 ## Demo Website
 
