@@ -74,7 +74,7 @@ $ npm start
 
 ## Support
 
-- Contact collaborators: [Islam](islam.solaiman92@gmail.com)[Abdelrahman](abdelrahmanmohammed049@gmail.com)
+- Contact collaborators: [Islam](islam.solaiman92@gmail.com) & [Abdelrahman](abdelrahmanmohammed049@gmail.com)
 
 # Steps followe to build the project:
 
