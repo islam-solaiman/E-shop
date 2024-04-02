@@ -76,7 +76,7 @@ $ npm start
 
 - Contact collaborators: [Islam](islam.solaiman92@gmail.com) & [Abdelrahman](abdelrahmanmohammed049@gmail.com)
 
-# Steps followe to build the project:
+# The project Step By Step:
 
 1. Create React App
 2. Create Git Repository
