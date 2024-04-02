@@ -1,15 +1,12 @@
 # Eshop
 
-![amazona](/frontend/public/images/amazona.jpg)
+![Eshop](/frontend/public/images/eshop.png)
 
 Welcome to my React and Node tutorial to build a fully-functional e-commerce website exactly like amazon. Open your code editor and follow me for the next hours to build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
 
-Watch it on Youtube:
-[https://www.youtube.com/watch?v=CDtPMR5y0QU](https://www.youtube.com/watch?v=CDtPMR5y0QU)
-
 ## Demo Website
 
-- 👉 Render : [https://amazona.onrender.com](https://amazona.onrender.com)
+- 👉 Render : [https://mern-eshop-0d433d7dc76c.herokuapp.com/](https://mern-eshop-0d433d7dc76c.herokuapp.com/)
 
 ## Architecture Overview
 
@@ -31,8 +28,8 @@ Watch it on Youtube:
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:basir/mern-amazona.git
-$ cd mern-amazona
+$ git clone https://github.com/islam-solaiman/E-shop.git
+$ cd E-shop
 ```
 
 ### 2. Create .env File
@@ -43,7 +40,7 @@ $ cd mern-amazona
 
 - Local MongoDB
   - Install it from [here](https://www.mongodb.com/try/download/community)
-  - In .env file update MONGODB_URI=mongodb://localhost/amazona
+  - In .env file update MONGODB_URI=mongodb://localhost/E-shop
 - OR Atlas Cloud MongoDB
   - Create database at [https://cloud.mongodb.com](https://cloud.mongodb.com)
   - In .env file update MONGODB_URI=mongodb+srv://your-db-connection
