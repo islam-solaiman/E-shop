@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+// Defining the schema for reviews
 const reviewSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
@@ -10,7 +11,7 @@ const reviewSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
+// Defining the schema for products
 const productSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, unique: true },
@@ -30,6 +31,6 @@ const productSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
+// Creating a model named 'Product' based on the product schema
 const Product = mongoose.model('Product', productSchema);
-export default Product;
+export default Product;// Exporting the Product model for use in other files

@@ -5,7 +5,7 @@ import User from '../models/userModel.js';
 import Product from '../models/productModel.js';
 import { isAuth, isAdmin, mailgun, payOrderEmailTemplate } from '../utils.js';
 
-const orderRouter = express.Router();
+const orderRouter = express.Router();// Creating an instance of Express Router
 
 orderRouter.get(
   '/',
@@ -17,6 +17,7 @@ orderRouter.get(
   })
 );
 
+// Endpoint to create a new order
 orderRouter.post(
   '/',
   isAuth,
@@ -31,7 +32,7 @@ orderRouter.post(
       totalPrice: req.body.totalPrice,
       user: req.user._id,
     });
-
+// Saving the new order to the database
     const order = await newOrder.save();
     res.status(201).send({ message: 'New Order Created', order });
   })
@@ -118,7 +119,7 @@ orderRouter.put(
     }
   })
 );
-
+// Endpoint to mark an order as paid
 orderRouter.put(
   '/:id/pay',
   isAuth,
